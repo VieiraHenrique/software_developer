@@ -8,8 +8,9 @@ class CarProgram {
         int km = 41000;
         byte cubicCapacity = 3;
         char co2 = 'B';
-        double fuelConsomption = 7.65;
+        float fuelConsomption = 7.65F;
         short power = 492;
+        long registration = 7247906257944313453L;
 
         System.out.println("price: " + price);
         System.out.println("doors: " + doors);
@@ -20,5 +21,6 @@ class CarProgram {
         System.out.println("co2: " + co2);
         System.out.println("fuelConsomption: " + fuelConsomption);
         System.out.println("power: " + power);
+        System.out.println("registration: " + registration);
     }
 }
